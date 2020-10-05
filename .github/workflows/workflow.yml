@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: ./gradlew test
       - if: always()
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: server-test-results
           path: build/reports/tests/test/
