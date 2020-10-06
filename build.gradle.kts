@@ -18,3 +18,4 @@ application {
 kotlin.sourceSets {
     getByName("main").kotlin.srcDirs("src/main")
 }
+
